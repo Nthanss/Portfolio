@@ -11,9 +11,12 @@ body {
     min-height: 100vh;
 
 }
-
+header {
+     background-image: linear-gradient(to right, rgba(6, 6, 29) , rgba(207, 0, 0));
+}
 .wrapper {
     flex: 1;
+    
 }
 
 #gspizza {
@@ -27,27 +30,27 @@ body {
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
-.banner {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
+
 
 .navigation ul {
     list-style-type: none;
     display: flex;
-    background-color: #444;
+    background-image: linear-gradient(to right, rgb(196, 1, 1) , rgb(141, 0, 0));
     
 }
+.banners {
+    width: 100%;
+    height: auto;
+   
 
+}
 .navigation ul li {
     margin: auto;
     width: auto;
 }
 
 .navigation ul li a{
-    color: rgb(0, 0, 0);
+    color: white;
     padding: 15px 20px;
     display: block;
     text-decoration: none;
@@ -76,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
-    background-color: #333;
+    background-image: linear-gradient(to right, rgb(196, 1, 1) , rgb(141, 0, 0));;
     color: white;
     text-align: center;
     padding: 10px;
